@@ -1,0 +1,10 @@
+button{
+    border: none;
+    background: none;
+    transition: all 0.4s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

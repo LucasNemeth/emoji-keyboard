@@ -1,8 +1,17 @@
-button{
-    border: none;
-    background: none;
-    transition: all 0.4s ease;
+ul{
+    background: #5595b3;
+    border-radius: 50px;
+    li{
+        margin: 20px 0;
+        button{
+        border: none;
+        background: none;
+        transition: all 0.4s ease;
+        }
+    }
 }
+
+
 
 button:hover{
     cursor: pointer;

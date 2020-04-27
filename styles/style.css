@@ -244,6 +244,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: 'Baloo Paaji 2', cursive;
   text-transform: uppercase;
@@ -278,7 +283,16 @@ textarea {
   left: -99999px;
 }
 
-button {
+ul {
+  background: #5595b3;
+  border-radius: 50px;
+}
+
+ul li {
+  margin: 20px 0;
+}
+
+ul li button {
   border: none;
   background: none;
   -webkit-transition: all 0.4s ease;
